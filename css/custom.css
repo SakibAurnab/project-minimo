@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css?family=Goudy+Bookletter+1911');
+body{
+	margin: 0;
+	padding: 0;
+	font-family: 'Goudy Bookletter 1911', serif;
+	font-size: 16px;
+	color: gray;
+	background-color: #efebcd38;
+}
+*{
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+img{
+	max-width: 100%;
+	display: block;
+}
+header{
+	margin: 35px;
+}
+.contaner{
+	width: 1200px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.logo{
+	width: 20%;
+    float: left;
+}
+.logo img{}
+nav{
+	width: 80%;
+    float: left;
+}
+nav ul{
+	margin: 0;
+    padding: 0;
+    text-align: right;
+}
+nav ul li{
+	list-style-type: none;
+	display: inline;
+
+} 
+nav ul li a{
+	text-decoration: none;
+    font-size: 20px;
+    margin-right: 50px;
+    color: #902323;
+}
+nav ul li a:hover{}
+.banner{}
+.banner img{
+	width: 100%;
+}
+.article-section{}
+.contant-box{
+	width: 1000px;
+    margin: 0 auto;
+}
+article{
+	padding: 35px 0;
+}
+article span{
+	    color: #902323;
+}
+article h1{
+	font-size: 30px;
+}
+article p{}
+article a{
+	text-decoration: none;
+}
+article a span{}
+.gallery-box{
+	overflow: hidden;
+}
+.gallery{
+	width: 50%;
+	float: left;
+	padding: 35px;
+}
+.gallery img{
+	width: 100%;
+	display: block;
+}
+.gallery span{
+	display: block;
+    margin: 12px;
+    color: #902323;
+}
+.gallery h1{}
+.gallery p{}
+.sign-up{
+	width: 100%;
+    background-color: #e8e8e8;
+    text-align: center;
+    padding: 25px;
+    overflow: hidden;
+}
+.sign-up h1{
+	font-size: 32px;
+    color: #037b70;
+    padding: 20px;
+}
+.sign-up input{
+	width: 20%;
+    border: none;
+    border-bottom: 1px solid black;
+    background: transparent;
+    outline: none;
+}
+.sign-up button{
+	border: none;
+    background: transparent;
+    outline: none;
+}
+.gallery-2{
+}
+.sign-up button span{
+	font-size: 25px;
+	overflow: hidden;
+}
+.button{
+	height: 200px;
+    overflow: hidden;
+}
+.button-box{}
+.button-box a{}
+.button-box a img{
+	margin: 0 auto;
+    padding: 35px;
+}
+footer{
+	background-color: #b1b1b154;
+	padding: 35px;
+}
+.footer-menu{
+	width: 50%;
+    float: left;
+}
+.footer-menu ul{
+	margin: 0;
+    padding: 0;
+}
+.footer-menu ul li{
+	list-style: none;
+    float: left;
+}
+.footer-menu ul li a{
+	text-decoration: none;
+    color: maroon;
+    text-transform: capitalize;
+    margin-right: 25px;
+}
+.footer-menu ul li a:hober{}
+.social-menu{
+	width: 50%;
+    display: inline-block;
+}
+.social-menu ul{
+	margin: 0;
+    padding: 0;
+    text-align: right;
+}
+.social-menu ul li{
+	display: inline-block;
+    font-size: 15px;
+
+}
+.social-menu ul li span{
+	    color: maroon;
+}
+.social-menu ul li a{
+	color: maroon;
+    margin-left: 15px;
+}
+.social-menu ul li a: hover{}
+
+
+
